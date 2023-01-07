@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdagramProject"
+	},
+	{
+		"ParameterKey": "WebServerAmiId",
+		"ParameterValue": "ami-06878d265978313ca"
+	},
+	{
+		"ParameterKey": "JumpBoxAmiId",
+		"ParameterValue": "ami-0b5eea76982371e91"
+	}
+]
