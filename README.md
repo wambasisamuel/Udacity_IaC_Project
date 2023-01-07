@@ -45,7 +45,7 @@ Last thing: Remember to delete your CloudFormation stack when you're done to avo
 
 ## Architecture Diagram
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![Udagram_Architecture_Diagram](https://github.com/wambasisamuel/Udacity_IaC_Project/blob/main/Udagram.png)
 
 ## Load Balancer Public Url
 
