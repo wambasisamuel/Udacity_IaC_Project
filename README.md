@@ -1,7 +1,7 @@
 # Project #2 - Cloud DevOps Engineer Nanodegree Program - Udacity
 ## **Deploy a High Availability Web App using CloudFormation**
 
-###**Problem**
+### **Problem**
 **Scenario**
 Your company is creating an Instagram clone called Udagram.
 Developers want to deploy a new application to the AWS infrastructure.
@@ -10,7 +10,7 @@ This needs to be automated so that the infrastructure can be discarded as soon a
 
 Optional - To add more challenge to the project, once the project is completed, you can try deploying sample website files located in a public S3 Bucket to the Apache Web Server running on an EC2 instance. Though, it is not the part of the project rubric.
 
-###**Scenario**
+### **Scenario**
 **Server specs**
 
 1. You'll need to create a Launch Configuration for your application servers in order to deploy four servers, two located in each of your private subnets. The launch configuration will be used by an auto-scaling group.
@@ -24,7 +24,7 @@ Optional - To add more challenge to the project, once the project is completed, 
 4. The application needs to be deployed into private subnets with a Load Balancer located in a public subnet.
 5. One of the output exports of the CloudFormation script should be the public URL of the LoadBalancer. Bonus points if you add http:// in front of the load balancer DNS Name in the output, for convenience.
 
-###**Other Considerations**
+### **Other Considerations**
 
 
 1. You can deploy your servers with an SSH Key into Public subnets while you are creating the script. This helps with troubleshooting. Once done, move them to your private subnets and remove the SSH Key from your Launch Configuration.
@@ -38,3 +38,15 @@ Optional - To add more challenge to the project, once the project is completed, 
 9. If you want to go the extra mile, set up a bastion host (jump box) to allow you to SSH into your private subnet servers. This bastion host would be on a Public Subnet with port 22 open only to your home IP address, and it would need to have the private key that you use to access the other servers.
 
 Last thing: Remember to delete your CloudFormation stack when you're done to avoid recurring charges!
+
+
+
+# Output
+
+## Architecture Diagram
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+## Load Balancer Public Url
+
+http://serve-webap-1sz9tpcald6nl-957918145.us-east-1.elb.amazonaws.com/
